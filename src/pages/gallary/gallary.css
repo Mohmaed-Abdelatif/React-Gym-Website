@@ -1,0 +1,20 @@
+.gallary {
+  margin-top: 60px;
+}
+.img__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  width: 100%;
+}
+.image__box {
+  width: 300px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .image__box {
+    width: 250px;
+    margin: 0 auto;
+  }
+}

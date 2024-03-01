@@ -1,0 +1,48 @@
+.plans {
+  margin-top: 60px;
+}
+
+.plans .cards__container {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 50px;
+
+}
+
+.plans .cards__container h3 + p:first-of-type {
+  color: var(--color-text);
+  font-size: 14px;
+}
+
+@media (max-width: 768px){
+  .plans .cards__container h3{
+    font-size:18px;
+  }
+
+  .plans .cards__container h3 + p:first-of-type {
+    font-size: 12px;
+  }
+}
+
+.plans .cards__container .price {
+  color: var(--color-text);
+  font-size: 22px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.plans .cards__container .price span {
+  color: var(--primary-color);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.not-avilable {
+  color: #333 !important;
+}
+.plans .cards__container .features {
+  margin-bottom: 10px;
+}
+.plans .features h4 {
+  color: white;
+  text-align: center;
+  margin-bottom: 5px;
+}

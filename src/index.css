@@ -1,13 +1,219 @@
-body {
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  color: unset;
+  text-decoration: none;
+  color: var(--color-link);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+:root {
+  --font-family: "Manrope", sans-serif;
+
+  --color-bg: #040c18;
+  --color-footer: #031b34;
+  --color-text: #98accf;
+  --color-link: #c2c8d6;
+
+  --primary-color: #0096ff;
+  --second-color: #0e233a;
+  --therd-color: #0a9f81;
+
+  --transition: all 0.3s ease;
+}
+
+body {
+  background: var(--color-bg);
+  font-family: var(--font-family);
+  color: var(--color-text);
+  line-height: 1.7;
+  over-flow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.2;
+}
+
+img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+.gradient-bg {
+  background: -moz-radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 25%
+  );
+
+  background: -webkit-radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 25%
+  );
+
+  background: -o-radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 25%
+  );
+
+  background: -ms-radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 25%
+  );
+
+  background: radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 25%
+  );
+}
+
+.up {
+  position: fixed;
+  bottom: -50px;
+  right: 30px;
+  font-size: 20px;
+  background:var(--therd-color) ;
+  color: white;
+  padding:  10px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000;
+  transition: var(--main-transition);
+}
+
+.up:hover {
+  background-color:#077d63;
+}
+
+.show {
+  bottom: 15px;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 85%;
+  }
+}
+
+.btn {
+  background: var(--primary-color);
+  padding: 8px 20px;
+  border-radius: 20px;
+  transition: var(--transition);
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background: var(--therd-color);
+}
+
+.section__head {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.section__head .section__icon {
+  margin-right: 10px;
+  color: var(--therd-color);
+  background: var(--second-color);
+  padding: 10px;
+  border-radius: 30%;
+}
+.section__head h2 {
+  color: white;
+}
+
+.cards__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  width: 100%;
+}
+
+.card__container {
+  background: var(--second-color);
+  width: 100%;
+  padding: 40px;
+  border-radius: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .card__container {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+.card__container .card__icon {
+  margin-right: 10px;
+  color: white;
+  background: var(--primary-color);
+  padding: 10px;
+  border-radius: 30%;
+  margin-bottom: 15px;
+}
+.card__container h3 {
+  color: white;
+  margin-bottom: 15px;
+}
+.card__container p {
+  text-align: center;
+  color: var(--color-link);
+}
+.card__container:hover {
+  background: transparent;
+  border: 1px solid var(--color-text);
+}
+.card__container:hover .card__icon {
+  background: var(--therd-color);
+}
+.card__container:hover .btn {
+  background: var(--therd-color);
+}
+
+.card__container .btn:hover {
+  background: #077d63;
 }

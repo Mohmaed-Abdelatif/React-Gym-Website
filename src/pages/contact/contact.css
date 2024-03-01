@@ -1,0 +1,23 @@
+.contact {
+  margin-top:120px;
+}
+
+.box__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.box__container a{
+  width: fit-content;
+  background: var(--second-color);
+  margin: 25px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  cursor:pointer;
+}
+.box__container a:hover{
+  background: var(--therd-color);
+
+}

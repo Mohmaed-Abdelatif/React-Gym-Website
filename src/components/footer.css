@@ -1,0 +1,140 @@
+.footer {
+  width: 100%;
+  background-color: var(--primary-color);
+  margin-top: 120px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  padding: 4rem 0 0 0;
+}
+
+.header__links-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+@media (max-width: 992px) {
+  .header__links-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.footer__header {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+/* .footer__header .logo {
+  height: 49.14pxpx;
+  width: 266px;
+  margin-bottom: 10px;
+} */
+.logo {
+  max-width: fit-content;
+  color:white;
+  margin-bottom: 10px;
+}
+
+.logo span{
+    color:var(--color-bg)
+}
+.footer__header p {
+  color: var(--color-text);
+}
+
+.links__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 40px;
+  width: 70%;
+}
+
+@media (max-width: 992px) {
+  .links__container {
+    width: 90%;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 425px) {
+  .links__container {
+    grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  }
+}
+.col__links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.col__links h4 {
+  color: white;
+}
+
+.col__links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.col__links li {
+  margin-bottom: 0.5rem;
+}
+
+.col__links a {
+  color: var(--color-link);
+  text-decoration: none;
+}
+
+.copyrigt__media-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  border-top:1px solid white;
+  padding:15px;
+}
+
+@media (max-width: 768px) {
+    .copyrigt__media-container {
+        flex-direction:column-reverse;
+  }
+}
+.copyrigt__media-container p {
+  color: white;
+}
+
+.media__container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.media__container img {
+  height: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.media__container img:hover {
+  transform: scale(1.2);
+}
+@media (max-width: 768px) {
+    .media__container{
+        margin-bottom:10px;
+    }
+    .media__container img {
+        height: 1.5rem;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+    .copyrigt__media-container p {
+      font-size:9px;
+    }
+}

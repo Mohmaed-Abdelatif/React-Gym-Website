@@ -1,0 +1,49 @@
+.trainers {
+  margin-top: 60px;
+}
+.trainers .cards__container {
+  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+  gap: 60px;
+}
+.trainers .card__container {
+  padding: 15px;
+}
+.trainers .image {
+  width: 100%;
+  border-radius: 30px 0px;
+}
+.trainers .image img {
+  border-radius: 30px 0 0 0;
+}
+
+.trainers .card__container h3 {
+  margin: 25px 0 0 0;
+}
+
+.trainers .card__container .socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.trainers .card__container a {
+  width: fit-content;
+  background: var(--color-footer);
+  text-align: center;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.trainers .card__container a:hover {
+  background: var(--therd-color);
+}
+
+@media (max-width: 768px) {
+  .trainers .cards__container {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+  .trainers .image {
+    width: 200px;
+  }
+}
