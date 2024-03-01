@@ -10,7 +10,7 @@ const App = () => {
       <GoUp/>
       <Navbar/>
       <Routes>
-        <Route index element={<Home/>}/>
+        <Route path='' element={<Home/>}/>
         <Route path='about' element={<About/>}/>
         <Route path='gallery' element={<Gallary/>}/>
         <Route path='plans' element={<Plans/>}/>
