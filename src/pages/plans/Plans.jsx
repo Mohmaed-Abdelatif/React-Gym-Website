@@ -29,7 +29,7 @@ const Plans = () => {
                         })
                       }
                     </div>
-                    <Link to="/" className='btn' >
+                    <Link to="/x" className='btn' >
                     Choose Plan
                     </Link>
                   </div>
