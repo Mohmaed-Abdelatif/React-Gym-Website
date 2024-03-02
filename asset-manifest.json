@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Gym-Website/static/css/main.4070aa76.css",
-    "main.js": "/React-Gym-Website/static/js/main.97e7e4a1.js",
+    "main.js": "/React-Gym-Website/static/js/main.5fe34adc.js",
     "static/media/header_bg_3.jpg": "/React-Gym-Website/static/media/header_bg_3.20aac8db63049715cbd1.jpg",
     "static/media/main_header.png": "/React-Gym-Website/static/media/main_header.cfdd71eb8ee4127d40dd.png",
     "static/media/header_bg_5.jpg": "/React-Gym-Website/static/media/header_bg_5.1779114ab5e3f0403a12.jpg",
@@ -43,10 +43,10 @@
     "static/media/facebook.svg": "/React-Gym-Website/static/media/facebook.d7c0b4e9ce034fb8d8f719d7fbc5fd90.svg",
     "index.html": "/React-Gym-Website/index.html",
     "main.4070aa76.css.map": "/React-Gym-Website/static/css/main.4070aa76.css.map",
-    "main.97e7e4a1.js.map": "/React-Gym-Website/static/js/main.97e7e4a1.js.map"
+    "main.5fe34adc.js.map": "/React-Gym-Website/static/js/main.5fe34adc.js.map"
   },
   "entrypoints": [
     "static/css/main.4070aa76.css",
-    "static/js/main.97e7e4a1.js"
+    "static/js/main.5fe34adc.js"
   ]
 }
