@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Gym-Website/static/css/main.4070aa76.css",
-    "main.js": "/React-Gym-Website/static/js/main.5fe34adc.js",
+    "main.css": "/React-Gym-Website/static/css/main.03c6df5c.css",
+    "main.js": "/React-Gym-Website/static/js/main.904edd07.js",
     "static/media/header_bg_3.jpg": "/React-Gym-Website/static/media/header_bg_3.20aac8db63049715cbd1.jpg",
     "static/media/main_header.png": "/React-Gym-Website/static/media/main_header.cfdd71eb8ee4127d40dd.png",
     "static/media/header_bg_5.jpg": "/React-Gym-Website/static/media/header_bg_5.1779114ab5e3f0403a12.jpg",
@@ -39,14 +39,15 @@
     "static/media/slick.ttf": "/React-Gym-Website/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/React-Gym-Website/static/media/slick.295183786cd8a1389865.woff",
     "static/media/twitter.svg": "/React-Gym-Website/static/media/twitter.770c4fec194e1e46d63c494c3abf339c.svg",
+    "static/media/github-mark-white.svg": "/React-Gym-Website/static/media/github-mark-white.97ed8e7eef60d61ca469881dd6f34511.svg",
     "static/media/linkedin.svg": "/React-Gym-Website/static/media/linkedin.118c1b5e826b3fec5a303413266a78f8.svg",
     "static/media/facebook.svg": "/React-Gym-Website/static/media/facebook.d7c0b4e9ce034fb8d8f719d7fbc5fd90.svg",
     "index.html": "/React-Gym-Website/index.html",
-    "main.4070aa76.css.map": "/React-Gym-Website/static/css/main.4070aa76.css.map",
-    "main.5fe34adc.js.map": "/React-Gym-Website/static/js/main.5fe34adc.js.map"
+    "main.03c6df5c.css.map": "/React-Gym-Website/static/css/main.03c6df5c.css.map",
+    "main.904edd07.js.map": "/React-Gym-Website/static/js/main.904edd07.js.map"
   },
   "entrypoints": [
-    "static/css/main.4070aa76.css",
-    "static/js/main.5fe34adc.js"
+    "static/css/main.03c6df5c.css",
+    "static/js/main.904edd07.js"
   ]
 }
