@@ -8,6 +8,7 @@ import linkedin from "../assets/linkedin.svg";
 
 import twitter from "../assets/twitter.svg";
 
+import github from "../assets/github-mark-white.svg"
 
 export const links = [
     {
@@ -333,42 +334,42 @@ export const trainers = [
         image: Trainer1,
         name: 'John Doe',
         job: 'Aerobic Trainer',
-        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
+        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://github.com/']
     },
     {
         id: 2,
         image: Trainer2,
         name: 'Mohamed Abdelatif',
         job: 'Strength Trainer',
-        socials: ['https://www.instagram.com/mohamed__alsaeed0/', 'https://twitter.com/iMohamed_19', 'https://www.facebook.com/imoalsaeed', 'https://www.linkedin.com/in/mohamed-abdelatif-639704283/']
+        socials: ['https://www.instagram.com/mohamed__alsaeed0/', 'https://twitter.com/iMohamed_19', 'https://www.facebook.com/imoalsaeed', 'https://github.com/Mohmaed-Abdelatif']
     },
     {
         id: 3,
         image: Trainer3,
         name: 'Edem Quist',
         job: 'Flexibility Trainer',
-        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
+        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://github.com/']
     },
     {
         id: 4,
         image: Trainer4,
         name: 'Shatta Wale',
         job: 'Body Composition Trainer',
-        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
+        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://github.com/']
     },
     {
         id: 5,
         image: Trainer5,
         name: 'Diana Ayi',
         job: 'Circuit Trainer',
-        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
+        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://github.com/']
     },
     {
         id: 6,
         image: Trainer6,
         name: 'Wayne Carter',
         job: 'Physical Intelligence Trainer',
-        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
+        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://github.com/']
     }
 ]
 
@@ -451,17 +452,23 @@ export const socialMedia = [
     },
     {
         id: "social-media-2",
+        icon: github,
+        link: "https://github.com/Mohmaed-Abdelatif",
+    },
+    {
+        id: "social-media-3",
         icon: facebook,
         link: "https://www.facebook.com/imoalsaeed",
     },
     {
-        id: "social-media-3",
+        id: "social-media-4",
         icon: twitter,
         link: "https://twitter.com/iMohamed_19",
     },
     {
-        id: "social-media-4",
+        id: "social-media-5",
         icon: linkedin,
         link: "https://www.linkedin.com/in/mohamed-abdelatif-639704283/",
     },
+
 ];

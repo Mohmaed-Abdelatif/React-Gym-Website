@@ -1,5 +1,5 @@
-import { footerLinks } from "../constants/data"
-import { socialMedia } from "../constants/data"
+import { footerLinks } from "../../constants/data"
+import { socialMedia } from "../../constants/data"
 import { Link } from "react-router-dom"
 
 import './footer.css'
@@ -22,7 +22,7 @@ const Footer = () => (
                   {
                     footerlink.links.map((link) => (
                       <li key={link.name}>
-                        <a href={link.link} >{link.name}</a>
+                        <Link to={link.link}>{link.name}</Link>
                       </li>
                     ))
                   }

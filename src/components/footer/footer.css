@@ -101,11 +101,7 @@
   padding:15px;
 }
 
-@media (max-width: 768px) {
-    .copyrigt__media-container {
-        flex-direction:column-reverse;
-  }
-}
+
 .copyrigt__media-container p {
   color: white;
 }
@@ -125,7 +121,13 @@
 .media__container img:hover {
   transform: scale(1.2);
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
+  .copyrigt__media-container {
+      flex-direction:column-reverse;
+}
+}
+
+@media (max-width: 992px) {
     .media__container{
         margin-bottom:10px;
     }

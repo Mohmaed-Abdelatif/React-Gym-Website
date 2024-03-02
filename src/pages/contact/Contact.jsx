@@ -1,5 +1,5 @@
 import './contact.css'
-import Header from '../../components/Header'
+import Header from '../../components/header/Header'
 import headerImage from '../../assets/header_bg_2.jpg'
 import { MdEmail } from 'react-icons/md'
 import { BsMessenger } from 'react-icons/bs'

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
-import Image from '../assets/main_header.png'
-import "../pages/home/home.css"
+import Image from '../../assets/main_header.png'
+import "../../pages/home/home.css"
 const MaainHeader = () => {
     return (
         <header  className="main__header ">

@@ -1,12 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import './trainers.css'
-import Header from '../../components/Header'
+import Header from '../../components/header/Header'
 import headerImage from '../../assets/header_bg_3.jpg'
 import { trainers } from '../../constants/data'
 import { AiFillInstagram } from "react-icons/ai";
 import { FaTwitter } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa6";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 
 const Trainers = () => {
@@ -30,7 +30,7 @@ const Trainers = () => {
                       <a href={trainer.socials[0]} target='_blank' rel="noreferrer"><AiFillInstagram/> </a>
                       <a href={trainer.socials[1]} target='_blank' rel="noreferrer"><FaTwitter/> </a>
                       <a href={trainer.socials[2]} target='_blank' rel="noreferrer"><FaFacebookF/> </a>
-                      <a href={trainer.socials[3]} target='_blank' rel="noreferrer"><FaLinkedinIn/> </a>
+                      <a href={trainer.socials[3]} target='_blank' rel="noreferrer"><FaGithub/> </a>
                     </div>
                   </div>
                 )

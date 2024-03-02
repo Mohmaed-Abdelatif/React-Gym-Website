@@ -1,5 +1,5 @@
 import './gallary.css'
-import Header from '../../components/Header'
+import Header from '../../components/header/Header'
 import headerImage from'../../assets/header_bg_4.jpg'
 import {gallery} from'../../constants/data'
 

@@ -1,5 +1,5 @@
 import './plans.css'
-import Header from '../../components/Header'
+import Header from '../../components/header/Header'
 import headerImage from '../../assets/header_bg_5.jpg'
 import { PlansData } from '../../constants/data'
 import { Link } from 'react-router-dom'

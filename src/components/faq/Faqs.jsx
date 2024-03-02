@@ -1,5 +1,5 @@
 import { FaQuestion } from "react-icons/fa"
-import { faqs } from "../constants/data"
+import { faqs } from "../../constants/data"
 import Faq from "./Faq";
 
 const Faqs = () => {

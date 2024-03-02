@@ -1,7 +1,7 @@
 import { Home, About, Contact, Gallary, NotFound, Plans, Trainers,} from './pages'
 import Navbar from './components/navbar/Navbar'
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
-import Footer from './components/Footer'
+import Footer from './components/footer/Footer'
 import GoUp from './components/GOUp'
 
 const App = () => {

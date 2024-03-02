@@ -1,5 +1,5 @@
 import './about.css'
-import Header from '../../components/Header'
+import Header from '../../components/header/Header'
 import headerImage from '../../assets/header_bg_1.jpg'
 import storyImage from "../../assets/about1.jpg"
 import visionImage from "../../assets/about2.jpg"
