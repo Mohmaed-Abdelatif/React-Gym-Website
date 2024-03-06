@@ -11,7 +11,7 @@ const Footer = () => (
           <Link to="/" className='logo' >
             <h1>Gym <span>Website</span></h1>
           </Link>
-          <p >A new way to make the payments easy, reliable and secure.</p>
+          <p >A New Methods Of Training Make Reaching The Goal Faster And An Enjoyable Journey.</p>
         </div>
         <div className=" links__container">
           {
